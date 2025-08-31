@@ -1,2 +1,5 @@
-@use 'vendors/bootstrap';
+---
+---
+
+@use 'bootstrap/scss/bootstrap' as *; // ← 이 한 줄로 Bootstrap 로드
 @use 'main';
