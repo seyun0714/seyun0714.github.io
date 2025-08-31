@@ -12,6 +12,4 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
-gem "jekyll", "~> 4.4"
-gem "jekyll-sass-converter", "~> 3.0" # @use 지원
-gem "sass-embedded"                   # Dart Sass 바인딩
+
